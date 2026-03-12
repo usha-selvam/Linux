@@ -1,0 +1,20 @@
+echo "Enter Mark list"
+echo "Ongur.Tindivanam,Villupuram"
+echo "---------------------------"
+echo "Student Mark list"
+echo "---------------------------"
+echo "Enter Mark list"
+echo "Enter Enrollment No"
+read Enroll
+echo "Enter Student Name"
+read Name
+echo "Enter Linux Mark"
+read Linux
+echo "Enter Java Mark"
+read Java
+echo "Enter Software Testing Mark"
+read St
+total=$((Linux + Java + St))
+average=$((total /3))
+echo "Total Mark:$total"
+echo "Average Mark:$average"

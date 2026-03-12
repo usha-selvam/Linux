@@ -1,0 +1,20 @@
+echo "Usha Computer Mart"
+echo "No.12,Nehru Street,Chennai"
+echo "--------------------------"
+echo "Bill Receipt"
+echo "--------------------------"
+echo "Enter the Serial No"
+read a
+echo "Enter the Particulars"
+read b
+echo "Enter the Quality"
+read c 
+echo "Enter the Rate"
+read d
+echo "Report"
+e=`expr $c \* $d`
+echo "Amount of purchase $e"
+f=`expr $e / 10`
+echo "GST (10%) $f"
+g=`expr $e + $f`
+echo "Total Amount to be paid $g"
