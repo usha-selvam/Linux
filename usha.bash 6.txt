@@ -1,0 +1,12 @@
+echo "Rectangle Program"
+echo "-----------------"
+echo "Enter the b value:"
+read a
+echo "Enter the l value:"
+read b
+echo "Report"
+c=`expr $a + $b`
+d=`expr $c \* 2`
+echo "Perimeter of Rect $d"
+e=`expr $a \* $b`
+echo "Area of Rect $e"
